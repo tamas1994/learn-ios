@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var iv: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        iv.image=UIImage(named:"simon-and-garfunkel.jpg")
     }
 
     override func didReceiveMemoryWarning() {

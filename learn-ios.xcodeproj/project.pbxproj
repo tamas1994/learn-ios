@@ -14,6 +14,8 @@
 		02F2FE6E202846DE00050B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F2FE6C202846DE00050B2C /* LaunchScreen.storyboard */; };
 		02F2FE79202846DE00050B2C /* learn_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F2FE78202846DE00050B2C /* learn_iosTests.swift */; };
 		02F2FE84202846DE00050B2C /* learn_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F2FE83202846DE00050B2C /* learn_iosUITests.swift */; };
+		02F2FE942028474900050B2C /* simon&garfunkel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02F2FE922028474900050B2C /* simon&garfunkel.jpg */; };
+		02F2FE952028474900050B2C /* simon-and-garfunkel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02F2FE932028474900050B2C /* simon-and-garfunkel.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		02F2FE7F202846DE00050B2C /* learn-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F2FE83202846DE00050B2C /* learn_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_iosUITests.swift; sourceTree = "<group>"; };
 		02F2FE85202846DE00050B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F2FE922028474900050B2C /* simon&garfunkel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "simon&garfunkel.jpg"; sourceTree = "<group>"; };
+		02F2FE932028474900050B2C /* simon-and-garfunkel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "simon-and-garfunkel.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		02F2FE62202846DE00050B2C /* learn-ios */ = {
 			isa = PBXGroup;
 			children = (
+				02F2FE912028471B00050B2C /* files */,
 				02F2FE63202846DE00050B2C /* AppDelegate.swift */,
 				02F2FE65202846DE00050B2C /* ViewController.swift */,
 				02F2FE67202846DE00050B2C /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				02F2FE85202846DE00050B2C /* Info.plist */,
 			);
 			path = "learn-iosUITests";
+			sourceTree = "<group>";
+		};
+		02F2FE912028471B00050B2C /* files */ = {
+			isa = PBXGroup;
+			children = (
+				02F2FE932028474900050B2C /* simon-and-garfunkel.jpg */,
+				02F2FE922028474900050B2C /* simon&garfunkel.jpg */,
+			);
+			path = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F2FE6E202846DE00050B2C /* LaunchScreen.storyboard in Resources */,
+				02F2FE942028474900050B2C /* simon&garfunkel.jpg in Resources */,
 				02F2FE6B202846DE00050B2C /* Assets.xcassets in Resources */,
 				02F2FE69202846DE00050B2C /* Main.storyboard in Resources */,
+				02F2FE952028474900050B2C /* simon-and-garfunkel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
