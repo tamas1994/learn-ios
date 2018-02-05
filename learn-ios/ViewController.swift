@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var iv: UIImageView!
     
+    @IBAction func btnClilcked(sender:AnyObject){
+        printLog(message: "I was clicked")
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +26,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func printLog<T>(message: T,file: String = #file,method: String = #function,line: Int = #line){
+        print("\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
     }
 
 
